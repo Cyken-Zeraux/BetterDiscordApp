@@ -16,6 +16,19 @@ Better Discord App enhances Discord desktop app with new features.
 * .NET 4.0 required https://www.microsoft.com/en-us/download/details.aspx?id=30653
 * Windows Installer users asar.net https://github.com/Jiiks/asar.net
 
+## Uninstallation
+
+Windows - Manually delete these folders, restart Discord.
+* ```%appdata%\BetterDiscord```
+* ```%localappdata%\Discord\app-x.x.xxx\resources\node_modules\BetterDiscord```
+* ```%localappdata%\Discord\app-x.x.xxx\resources\app```
+
+Automatic:
+
+Reinstall the Discord client. This will not delete the backup files at ```%appdata%\BetterDiscord```, but will return
+your client to its vanilla state.
+
+
 ## Auto Installation
 * Download the latest package from [releases](https://github.com/Jiiks/BetterDiscordApp/releases)
 * Run the installer
